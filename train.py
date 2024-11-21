@@ -11,3 +11,5 @@ else:
 # 训练模型，具体参数需要在配置文件里面修改。
 # 请你为每种模型额外修改一个名字，不要使用default.yaml
 model = model.train(cfg="LK_YOLOv10_cfg.yaml", data="manhole.yaml")
+
+# test
